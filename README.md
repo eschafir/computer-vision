@@ -26,7 +26,9 @@ pip install ultralytics opencv-python easyocr matplotlib
 
 ## Usage
 
-To run the object detection and text extraction pipeline, run the following command:
+All the implementations are included in a Jupyter Notebook named `computer-vision.ipynb`. Just make sure you have all the dependencies installed before running the code.
+
+Alternately you can run the object detection and text extraction pipeline, by runnning the following command:
 
 ```bash
 python main.py --input <path_to_input_file> --output <path_to_output_file>
@@ -34,3 +36,12 @@ python main.py --input <path_to_input_file> --output <path_to_output_file>
 
 Replace `<path_to_input_file>` with the path to the input image or video file, and `<path_to_output_file>` with the path to save the processed output file.
 
+## Output Examples
+
+### Yolo Object detection
+
+![alt text](image.png)
+
+### EasyOCR
+
+![alt text](image-1.png)
