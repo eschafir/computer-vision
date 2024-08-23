@@ -40,8 +40,8 @@ Replace `<path_to_input_file>` with the path to the input image or video file, a
 
 ### Yolo Object detection
 
-![alt text](image.png)
+![alt text](runs/detect/predict/test5.jpg)
 
 ### EasyOCR
 
-![alt text](image-1.png)
+![alt text](outputs/ocr1.png)
